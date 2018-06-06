@@ -1,0 +1,81 @@
+23rd May: 1
+	Unwell
+	The bug seemed to be there only when Definition 6 was used. Isolated why
+	Call with professor in the night
+
+22nd May: 0
+	Unwell. Off day.
+
+21st May: 9
+	Debugged feasibility algorithm partially. still need to debug a little.
+	Wrote program to plot feasibility ratio vs T, to track performance over a range of T
+	Wrote random bitonic function generator
+	Started making feasibility algorithm performance document
+	Performance remains almost constant for T>20
+	Need to see what is going wrong and what is going right
+	Need to tweak definition of feasibility factor to see if things improve
+	Wrote code for testing effectiveness of different definitions of feasibility
+	Sent update to professor
+
+20th May: 10
+	Finalized the feasibility algorithm, decided upon a few subtleties
+	Wrote the code for the entire algorithm, spend hours debugging	
+	Still some bug remaining which shall be debugged later
+	Approximation ratio is going as low as 0.8. Need to improve this
+	Still cant think of any way to prove anything mathematically in this algorithm
+
+19th May: 7
+	Fixed bottleneck by finding alternate way to find all states
+	Dynamic Algorithm is extremely fast now
+	Implemented functionality to calculate optimum sequence for arbitrary T
+	Derived expression for number of states(k,T), verified it using examples
+	Wrote another function for finding all states using above formula
+	This was abandoned because the former algorithm was faster
+	Learnt graph plotting in python, plotted no. of states vs k,T (Both look exponential)
+																																									
+18th May: 9
+	Implemented the dynamic programming algorithm
+	Tried to optimize space use as much as possible
+	Realized bottleneck in optimization
+	Implemented both brute force and dynamic to return all optimal sequences
+
+17th May: 0
+	Off Day
+
+16th May: 7
+	Came up with dynamic feasibility concept
+	Made slides for this algorithm
+	Met both Professors in IISc. Presented algorithm, got inputs.
+	Thought about the dynamic programming approach.
+
+15th May: 10
+	Modified the original data structures to bring most functions under one umbrella.
+	Thought about and implemented the differential gain algorithm. (opt_diff.py)
+	No success. This needs more work, if it is to yield something of significance.
+	Devised and described two algorithms based on the feasibility concept: A and B.
+	Conducted dry runs and compared results with optimum sequence.
+	Algorithm A, which looked promising initially had too many loopholes.
+	Algorithm B looks even more promising, and has fewer issues. 
+	Need to concentrate on Algorithm B for the next couple of days atleast. 
+
+14th May: 3
+	Call with Professor at 9am. Discussed feasibility algorithm. 
+	Thought about the divide-and-conquer approach. Encountered roadblocks.
+	Spent time with family. 
+	Overall, not a very productive day with regards to work. 
+
+13th May: 6
+	Spent day with parents. Traveled to Bangalore. 
+	Worked on the feasibility algorithm.
+	Worked out examples by hand to come up with potential algorithm. 
+
+12th May: 8
+	Completed basic framework with Brute force algorithm and sequence applier.
+	Parents arrived at night.
+
+11th May: 7
+	Drafted Formal Project Description.
+	Started coding up the needed data structures in Python.
+
+10th May: 5
+	Call with Professor at 9pm. Discussed project details.
